@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>上善如水</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2024-07-03T06:44:10.903Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Andy</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2024/07/03/hello-world/"/>
+    <id>http://example.com/2024/07/03/hello-world/</id>
+    <published>2024-07-03T06:44:10.903Z</published>
+    <updated>2024-07-03T06:44:10.903Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>jQuery对表单的操作及更多应用</title>
+    <link href="http://example.com/2017/05/26/web%E5%89%8D%E7%AB%AF/"/>
+    <id>http://example.com/2017/05/26/web%E5%89%8D%E7%AB%AF/</id>
+    <published>2017-05-26T04:12:57.000Z</published>
+    <updated>2024-07-03T09:35:11.347Z</updated>
+    
+    
+    
+    
+    <category term="web前端" scheme="http://example.com/categories/web%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="标签" scheme="http://example.com/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+    <category term="希望" scheme="http://example.com/tags/%E5%B8%8C%E6%9C%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>旅行文</title>
+    <link href="http://example.com/2017/05/26/%E6%97%85%E8%A1%8C/"/>
+    <id>http://example.com/2017/05/26/%E6%97%85%E8%A1%8C/</id>
+    <published>2017-05-26T04:12:57.000Z</published>
+    <updated>2024-07-03T09:34:15.216Z</updated>
+    
+    
+    
+    
+    
+    <category term="标签" scheme="http://example.com/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+    <category term="旅行" scheme="http://example.com/tags/%E6%97%85%E8%A1%8C/"/>
+    
+  </entry>
+  
+</feed>
