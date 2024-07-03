@@ -7,8 +7,8 @@ title: 上善如水
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: Andy
+language: zh-cn
 timezone: ''
 
 # URL
@@ -96,7 +96,8 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+## theme: landscape
+theme: ayer
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -104,3 +105,20 @@ deploy:
   type: git 
   repo: git@github.com:andyyanghe/andyyanghe.github.io.git 
   branch: master
+
+
+# Hexo-generator-search
+search:
+  path: search.xml
+  field: post
+  format: html
+
+feed:
+    type: atom
+    path: atom.xml
+    limit: 20
+    hub:
+    content:
+    content_limit: 140
+    content_limit_delim: ' '
+    order_by: -date   
