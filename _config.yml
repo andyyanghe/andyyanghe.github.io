@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 上善如水
 subtitle: ''
 description: ''
 keywords:
@@ -102,5 +102,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git 
-  repo: git@github.com:andyyanghe/blog.git 
-  branch: main
+  repo: git@github.com:andyyanghe/andyyanghe.github.io.git 
+  branch: master
