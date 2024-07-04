@@ -81,13 +81,13 @@ word_count:
 
 # 打赏
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-默认开启所有文章均有打赏，如果有些文章你不需要，请在文章对应的md文件里设置no_reward:true
-reward_type: 1
+reward_type: 0
 # 打赏wording
 reward_wording: '请我喝杯咖啡吧~'
 # 支付宝二维码图片地址，跟你设置logo的方式一样。比如：/images/alipay.jpg
-alipay: /images/alipay.jpg
+alipay: ''
 # 微信二维码图片地址
-weixin: /images/wechat.jpg
+weixin: ''
 
 # 版权声明
 # 版权声明type设定：0-关闭版权声明； 1-文章对应的md文件里有copyright: true属性，才有版权声明； 2-所有文章均有版权声明
@@ -116,12 +116,12 @@ layout:
 # 1、Valine[一款快速、简洁且高效的无后端评论系统](https://github.com/xCss/Valine)
 # 启用Valine必须先创建leancloud应用， 注册账号后获取 id|key 填入即可
 leancloud:  
-  enable: true
+  enable: false
   app_id: #
   app_key: #
 # Valine配置(如果有些文章你想关闭评论，请在文章对应的md文件里设置no_valine:true)
 valine:
-  enable: true # 是否启用
+  enable: false # 是否启用
   verify: false # 是否开启防垃圾评论验证
   notify: false # 是否开启邮件提醒(https://valine.js.org/notify.html)
   avatar: mp # 头像样式(https://valine.js.org/avatar.html)
@@ -129,17 +129,17 @@ valine:
 
 # 2、Gitalk(https://github.com/gitalk/gitalk)
 gitalk:
-  enable: false # true
-  clientID: # GitHub Application Client ID
-  clientSecret: # Client Secret
-  repo: # Repository name
-  owner: # GitHub ID
-  admin: # GitHub ID
+  enable: true # true
+  clientID: Ov23liMkH9ndxCF8mmQS # GitHub Application Client ID
+  clientSecret: f5815c3b11d323508d4fcd369dddc0eb441d7814 # Client Secret
+  repo: blog_comments # Repository name
+  owner: andyyanghe # GitHub ID
+  admin: andyyanghe # GitHub ID
   
 # GitHub Ribbons-封面右上角的forkme，换样式直接在source/images目录下替换forkme图片
 github: false
   # (关闭请设置为false)
-  # url: https://github.com/Shen-Yu/hexo-theme-ayer
+  # url: https://andyyanghe.github.io
 
 # fancybox(仅用于相册展示，若需要可配置albums)
 fancybox: true
